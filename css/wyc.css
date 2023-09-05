@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+  /* 上方為goolgle-font */
+
+  :root {
+    --mycolor01: #8C738F;
+    --mycolor02: #D4B8B4;
+    --mycolor03: #ADAAA5;
+    --mycolor04: #B7B7BD;
+    --mycolor05: #AAB8AB;
+    --mycolor06: #9AB7B9;
+    --mycolor07: #BDD1BB;
+    --mycolor08: #eeeeee;
+    --mycolor09: #000000;
+    --mycolor10: #ffffff;
+    --mycolor11: #FF0000;
+    --mycolor12: #0000E3;
+    --mycolor13: #cccccc;
+}
+ /* .fw為google-font */
+.fw-100{
+    font-weight: 100;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.fw-900{
+    font-weight: 900;
+}
+
+.box01{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border: var(--mycolor11);
+}
+
+.box02{
+    height:120px;  
+    border: 2px solid var(--mycolor11);
+    background-color: var(--mycolor01);
+}
+
+.boxwow{
+    height:150px;  
+    border: 2px solid var(--mycolor11);
+    background-color: var(--mycolor06);
+    width: 150px;
+}
+
+
+
+.bg-cover{
+    background-position: center center;
+    background-size: cover;
+}
+ .demo{
+    height:auto;  
+    border: 2px solid var(--mycolor06);
+    background-color: var(--mycolor10);
+ }
